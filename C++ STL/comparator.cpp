@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-// comparator says if u want to swap return me false.
+// comparator says if you want to swap return me false.
 bool comp(const int &a,const int &b)
 {
     if (a>b) return false;
