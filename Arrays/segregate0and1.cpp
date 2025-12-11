@@ -33,15 +33,26 @@ int main()
     // }
     //TIME COMPLEXITY OF O(n) : 
     int i  = 0;
-    int j = 0;
-    while(j<n)
+    int j = n-1;
+    while(i<j)
     {
-        if(v[j] == 0) 
+        if(v[i] == 0)
         {
-            swap (v[i],v[j]);
             i++;
         }
-        j++;
+        else 
+        {
+            if(v[j]==0)
+            {
+                swap(v[i],v[j]);
+                i++;
+                j--;
+            }
+            else 
+            {
+                j--;
+            }
+        }
     }
     for(int e : v)
     {
