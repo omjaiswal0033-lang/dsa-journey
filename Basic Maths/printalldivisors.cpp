@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int n;
-    cout<<"Enter num to find divisors of : ";
+    cout<<"Enter num to find divisors of the given num : ";
     cin>>n;
     vector <int> res;
     int i = 1;
