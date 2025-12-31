@@ -22,4 +22,6 @@ int main()
 // . → for objects
 
 // -> → for pointers and iterator-like objects
+
+// so when i use for(auto it : vector or map) its not the actual iterator its just feature of for each loop
 // }
