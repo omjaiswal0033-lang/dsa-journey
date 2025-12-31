@@ -24,4 +24,5 @@ int main()
 // -> → for pointers and iterator-like objects
 
 // so when i use for(auto it : vector or map) its not the actual iterator its just feature of for each loop
+// during for each loop the for (auto ele : v) here ele is just a copy to make it reference put auto &ele : v
 // }
